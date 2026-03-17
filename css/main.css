@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* 전체 inner */
+
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* 상단 */
+
+header {
+  background-color: beige;
+}
+.nav {
+  display: flex;
+  align-items: flex-end;
+  /* background-color: red; */
+}
+header .inner .nav ul {
+  display: flex;
+  /* 1 */
+  /* align-items: center; */
+  gap: 60px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+header .inner {
+  background-color: #0f3005;
+  /* margin: 30px auto; */
+  width: 1200px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 40px;
+}
+.inner .logo {
+  /* font-family:  'Allan'; */
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  /* font-style: italic; */
+  font-weight: bold;
+  color: #fff;
+}
+
+/* 2. 타이틀 섹션 */
+.title-section .inner {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 10px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.title-section .inner img{
+    width: 80px;
+}
+.title-text h4{
+  font-size: 30px;
+}
+.title-text p{
+font-size: 18px;
+color: #616060;
+  /* margin: 8px 0; */
+}
+
+/* 클래스 영역 */
+
+.class-wrap{
+    background-color: rgb(180, 185, 185);
+}
+
+.card{
+    border-radius: 10px;
+    border: 1px solid #333;
+    
+}
+
+.class-wrap .inner{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 푸터영역 */
+
+footer {
+  padding: 35px;
+  background-color: #fff;
+}
+
+footer .inner {
+  background-color: #d1cfcf;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  line-height: center;
+}
+
+.text-left > p {
+  margin: 20px 25px;
+}
+
+.text-left .english {
+  margin-bottom: 20px;
+}
+
+.text-right {
+  color: #616060;
+  padding: 20px 10px;
+  /* margin: 20px 10px; */
+}
+.text-right .icon {
+  margin-top: 20px;
+}
+/* 띄우기 */
+.text-right .icon > i {
+  margin-right: 20px;
+}
+
